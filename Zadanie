@@ -1,0 +1,37 @@
+# Zadanie 2B – Modernizacja interfejsu aplikacji „Lista wydatków”
+
+Rozwiń istniejącą aplikację z Zadania 2. Nie twórz aplikacji od początku — wykorzystaj aktualny kod i funkcjonalności.
+
+## Cel
+
+Aplikacja ma wyglądać jak współczesna, prosta aplikacja webowa i być wygodna w obsłudze zarówno na komputerze, jak i na telefonie.
+
+Do przygotowania interfejsu wykorzystaj:
+
+- Tailwind CSS
+- daisyUI
+
+Nie twórz własnego rozbudowanego CSS, jeżeli dany efekt można osiągnąć przy pomocy Tailwind lub komponentów daisyUI.
+
+## Wymagania
+
+- [ ] Dodaj Tailwind CSS do projektu.
+- [ ] Dodaj daisyUI.
+- [ ] Formularz dodawania wydatku powinien wyglądać jak formularz aplikacji, a nie domyślny formularz HTML.
+- [ ] Przyciski powinny korzystać ze stylów daisyUI.
+- [ ] Lista lub tabela wydatków powinna być czytelna i estetyczna.
+- [ ] Kwota łączna wszystkich wydatków powinna być wyraźnie widoczna.
+- [ ] Komunikaty błędów walidacji powinny być czytelne dla użytkownika.
+- [ ] Interfejs powinien poprawnie wyglądać również na ekranie telefonu.
+- [ ] Dodaj możliwość przełączenia wyglądu aplikacji pomiędzy jasnym i ciemnym motywem.
+- [ ] Zmiana wyglądu nie może zepsuć żadnej funkcjonalności wykonanej w Zadaniu 2.
+
+## Git
+
+Prace wykonuj w istniejącym repozytorium.
+
+Zmiany związane z przebudową interfejsu powinny być zapisane w kilku logicznych commitach, a nie w jednym dużym commicie na końcu.
+
+## Efekt końcowy
+
+Po otwarciu aplikacji użytkownik powinien odnieść wrażenie, że korzysta z małej, gotowej aplikacji, a nie z ćwiczenia szkolnego z HTML.
