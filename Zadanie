@@ -35,3 +35,62 @@ Zmiany związane z przebudową interfejsu powinny być zapisane w kilku logiczny
 ## Efekt końcowy
 
 Po otwarciu aplikacji użytkownik powinien odnieść wrażenie, że korzysta z małej, gotowej aplikacji, a nie z ćwiczenia szkolnego z HTML.
+
+# Informacja techniczna – Tailwind CSS + daisyUI
+
+W tym zadaniu nie konfigurujemy jeszcze środowiska Node.js ani procesu budowania CSS.
+
+Tailwind CSS oraz daisyUI należy podłączyć bezpośrednio do istniejącego pliku HTML.
+
+W sekcji `<head>` strony dodaj:
+
+```html
+<!-- daisyUI -->
+<link
+    href="https://cdn.jsdelivr.net/npm/daisyui@5"
+    rel="stylesheet"
+    type="text/css"
+/>
+
+<!-- Tailwind CSS -->
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+```
+
+Przykładowa struktura dokumentu:
+
+```html
+<!DOCTYPE html>
+<html lang="pl" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lista wydatków</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/daisyui@5"
+        rel="stylesheet"
+        type="text/css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <!-- istniejąca aplikacja -->
+
+</body>
+</html>
+```
+
+## Dokumentacja
+
+Do wykonania zadania korzystaj z dokumentacji:
+
+- Tailwind CSS: `https://tailwindcss.com/docs`
+- daisyUI: `https://daisyui.com/components/`
+
+Samodzielnie znajdź odpowiednie klasy Tailwind CSS oraz komponenty daisyUI potrzebne do wykonania interfejsu.
+
+Nie kopiuj całych gotowych szablonów aplikacji. Dobierz i połącz potrzebne elementy samodzielnie.
